@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://static.vecteezy.com/system/resources/previews/009/384/696/non_2x/drum-clipart-design-illustration-free-png.png"
+    />
+    <title>Bateria online</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <h1>Bateria</h1>
+
+    <main>
+      <section class="keysArea">
+        <div class="key" id="q">Q</div>
+        <div class="key" id="w">W</div>
+        <div class="key" id="e">E</div>
+        <div class="key" id="a">A</div>
+        <div class="key" id="s">S</div>
+        <div class="key" id="d">D</div>
+        <div class="key" id="z">Z</div>
+        <div class="key" id="x">X</div>
+        <div class="key" id="c">C</div>
+      </section>
+
+      <form>
+        <input
+          type="text"
+          id="composition"
+          placeholder="Faça uma composição. Ex: AAWES"
+          autocomplete="off"
+        />
+
+        <button id="btnPlay">Tocar</button>
+      </form>
+    </main>
+
+    <audio src="sounds/keyq.wav" id="s_keyq"></audio>
+    <audio src="sounds/keyw.wav" id="s_keyw"></audio>
+    <audio src="sounds/keye.wav" id="s_keye"></audio>
+    <audio src="sounds/keya.wav" id="s_keya"></audio>
+    <audio src="sounds/keys.wav" id="s_keys"></audio>
+    <audio src="sounds/keyd.wav" id="s_keyd"></audio>
+    <audio src="sounds/keyz.wav" id="s_keyz"></audio>
+    <audio src="sounds/keyx.wav" id="s_keyx"></audio>
+    <audio src="sounds/keyc.wav" id="s_keyc"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
